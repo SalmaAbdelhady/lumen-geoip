@@ -1,5 +1,5 @@
 {
-    "name": "codenexus/lumen-geoip",
+    "name": "salmaabdelhady/lumen-geoip",
     "description": "GeoIP for Lumen",
     "keywords": ["php", "codenexus", "lumen", "geoip"],
     "license": "MIT",
@@ -15,13 +15,15 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "geoip2/geoip2": "^2.4"
+        "php": ">=7.0",
+        "geoip2/geoip2": "^2.4",
+        "illuminate/console": "^5.6",
+        "illuminate/support": "^5.6"
     },
     "autoload": {
         "psr-4": {
             "Codenexus\\GeoIP\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
