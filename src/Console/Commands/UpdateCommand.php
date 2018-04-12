@@ -43,7 +43,7 @@ class UpdateCommand extends Command
      *
      * @return void
      */
-    public function fire()
+    public function handle()
     {
         $result = $this->updater->update();
 
