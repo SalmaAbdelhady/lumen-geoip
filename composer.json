@@ -12,6 +12,11 @@
             "name": "Jeremy Schaffer",
             "email": "jeremys@codenexus.org",
             "role": "Developer"
+        },
+        {
+            "name": "Salma Abdelhady",
+            "email": "salmahabdelhady@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
