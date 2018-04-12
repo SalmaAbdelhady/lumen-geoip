@@ -24,7 +24,7 @@ class UpdateCommand extends Command
     /**
      * Updater Object.
      *
-     * @var \Codenexus\GeoIPlm\GeoIPUpdater
+     * @var \Codenexus\GeoIP\GeoIPUpdater
      */
     protected $updater;
 
